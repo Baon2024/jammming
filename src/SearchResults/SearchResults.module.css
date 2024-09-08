@@ -1,0 +1,22 @@
+h2 {
+    color: white;
+    font-weight: bold;
+}
+div {
+    border: 1px solid white;
+}
+.second {
+    display: inline-flex;
+}
+.plus {
+
+}
+.name {
+    font-size: large;
+}
+.minor {
+    font-size: medium;
+}
+.collection {
+    display: grid;
+}
