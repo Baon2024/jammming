@@ -28,7 +28,8 @@ useEffect(() => {
 }
   fetchSavedSongs();
   console.log('Your saved playlist is: ' + savedSongs);
-}, [responseState])
+}, [responseState, getSavedSongs]) //added getSavedSongs to dependency array
+//as netlify wouldn't build the website without it
 
 
 /*{savedSongs.map((savedPlaylist) => {
